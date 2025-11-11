@@ -2,25 +2,29 @@
 
 📌 Overview
 
-This project focuses on analyzing mobile app reviews written in multiple languages using Machine Learning and Natural Language Processing (NLP) techniques.
-The goal is to classify reviews into sentiments (Positive, Negative, Neutral), gain cross-lingual insights, and help app developers improve user experience globally.
+Developed an NLP-based sentiment analysis system to analyze 2,400+ multilingual mobile app reviews collected from Kaggle datasets (WhatsApp, Instagram, Facebook, Twitter, YouTube).
+The goal was to classify user reviews into Positive, Negative, or Neutral sentiments and evaluate performance across multiple languages for improved global app feedback analysis.
 
 🚀 Features
 
-Preprocessing of multilingual reviews (language detection, tokenization, stopword removal).
+Built an end-to-end NLP pipeline including text cleaning, translation, and TF-IDF vectorization.
 
-Sentiment classification using ML and Deep Learning models.
+Trained and optimized a Logistic Regression model for sentiment classification.
 
-Evaluation across multiple languages with 73.53% accuracy.
+Achieved an accuracy of 78.9%, demonstrating reliable performance on diverse multilingual data.
 
-Interactive Streamlit Dashboard for visualization of sentiment distribution, language-wise trends, and app category insights.
+Visualized key metrics such as precision, recall, F1-score, and a detailed confusion matrix for model evaluation.
+
+Explored fine-tuning of BERT models for deeper multilingual sentiment understanding.
 
 🛠️ Tech Stack
 
 Languages & Tools: Python, Jupyter Notebook
 
-Libraries: Pandas, NumPy, Matplotlib, Seaborn, scikit-learn, NLTK, spaCy, XGBoost, TensorFlow/PyTorch (for LSTM, mBERT)
+Libraries: Pandas, NumPy, Scikit-learn, NLTK, Matplotlib, Seaborn
 
-Visualization: Streamlit, Plotly
+ML Techniques: TF-IDF Vectorization, Logistic Regression, BERT (Exploratory)
 
-Deployment: Render/Streamlit Sharing (optional)
+Visualization: Matplotlib, Seaborn
+
+Dataset Source: Kaggle (Multilingual App Reviews Dataset)
